@@ -1,0 +1,13 @@
+section {
+  .hero {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+
+    img {
+      width: 60rem;
+      height: 45rem;
+      border-radius: 5rem;
+    }
+  }
+}
