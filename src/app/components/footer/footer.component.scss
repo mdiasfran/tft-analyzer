@@ -1,0 +1,27 @@
+@import '../../../dist/scss/variables.scss';
+
+section {
+  border-top: 1px solid #6d748c60;
+  margin-top: 10rem;
+  color: $font-color-primary;
+
+  .footer {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+
+    .terms {
+      display: flex;
+      gap: 2rem;
+
+      a {
+        text-decoration: none;
+        color: $font-color-primary;
+
+        &:hover{
+          color: $secondary-color;
+        }
+      }
+    }
+  }
+}
