@@ -1,1 +1,93 @@
-<p>card-champs works!</p>
+<section>
+  <div class="card-champs">
+    <div class="title-card-champs">
+      <p>Popular</p>
+      <span>Champs</span>
+    </div>
+    <div class="select-wrapper">
+      <select name="select" id="">
+        <option value="" selected disabled>Select class</option>
+        <option *ngFor="let class of championClasses" [value]="class.id">
+          {{ class.name }}
+        </option>
+      </select>
+    </div>
+  </div>
+<div class="card-section">
+  <div class="card">
+    <div class="card-header">
+      <div class="ranking">
+        <img src="../../../assets/icons/trofeu.png" alt="" />
+        <p>#1</p>
+      </div>
+      <a href=""><img src="../../../assets/icons/seta.png" alt="" /></a>
+    </div>
+    <div class="card-body">
+      <img src="../../../assets/ahri.webp" alt="" />
+      <p>Ahri</p>
+      <span>Classes?</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <div class="ranking">
+        <img src="../../../assets/icons/trofeu.png" alt="" />
+        <p>#1</p>
+      </div>
+      <a href=""><img src="../../../assets/icons/seta.png" alt="" /></a>
+    </div>
+    <div class="card-body">
+      <img src="../../../assets/ahri.webp" alt="" />
+      <p>Ahri</p>
+      <span>Classes?</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <div class="ranking">
+        <img src="../../../assets/icons/trofeu.png" alt="" />
+        <p>#1</p>
+      </div>
+      <a href=""><img src="../../../assets/icons/seta.png" alt="" /></a>
+    </div>
+    <div class="card-body">
+      <img src="../../../assets/ahri.webp" alt="" />
+      <p>Ahri</p>
+      <span>Classes?</span>
+    </div>
+  </div>
+
+
+  <div class="card">
+    <div class="card-header">
+      <div class="ranking">
+        <img src="../../../assets/icons/trofeu.png" alt="" />
+        <p>#1</p>
+      </div>
+      <a href=""><img src="../../../assets/icons/seta.png" alt="" /></a>
+    </div>
+    <div class="card-body">
+      <img src="../../../assets/ahri.webp" alt="" />
+      <p>Ahri</p>
+      <span>Classes?</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <div class="ranking">
+        <img src="../../../assets/icons/trofeu.png" alt="" />
+        <p>#1</p>
+      </div>
+      <a href=""><img src="../../../assets/icons/seta.png" alt="" /></a>
+    </div>
+    <div class="card-body">
+      <img src="../../../assets/ahri.webp" alt="" />
+      <p>Ahri</p>
+      <span>Classes?</span>
+    </div>
+  </div>
+</div>
+</section>

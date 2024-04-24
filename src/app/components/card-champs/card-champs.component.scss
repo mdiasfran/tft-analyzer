@@ -1,0 +1,111 @@
+@import "../../../dist/scss/variables.scss";
+
+section {
+  margin-top: 5rem;
+
+  .card-section {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .card-champs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .title-card-champs {
+      p {
+        font-size: 2rem;
+        color: $font-color-primary;
+        font-weight: 700;
+      }
+
+      span {
+        font-size: 3.6rem;
+        color: $font-color-tertiary;
+        font-weight: 700;
+      }
+    }
+
+    .select-wrapper {
+      border: 1px solid #6d748c;
+      padding: 1rem;
+      border-radius: 20rem;
+      height: 5rem;
+      display: flex;
+      align-items: center;
+
+      select {
+        color: $font-color-tertiary;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        outline: none;
+
+        option {
+          color: $font-color-primary;
+        }
+      }
+    }
+  }
+  .card {
+    width: 22rem;
+    border: 1px solid #6d748c;
+    border-radius: 2rem;
+    margin-top: 4rem;
+
+    .card-header {
+      height: 5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-inline: 2rem;
+
+      background-color: #6d748c1e;
+      border-radius: 2rem 2rem 0 0;
+
+      .ranking {
+        background-color: #924fff;
+        display: flex;
+        align-items: center;
+        border-radius: 20rem;
+        padding: 0.4rem 1rem;
+        gap: 0.5rem;
+
+        img {
+          height: 1.2rem;
+        }
+
+        p {
+          color: $font-color-tertiary;
+          font-size: 1.2rem;
+        }
+      }
+      a img {
+        width: 2rem;
+
+        &:hover {
+          transform: scale(1.2);
+        }
+      }
+    }
+    .card-body {
+      text-align: center;
+      padding: 3rem;
+      color: $font-color-tertiary;
+      img {
+        width: 8rem;
+        border-radius: 50%;
+        margin-bottom: 1.5rem;
+      }
+
+      p {
+        font-weight: 600;
+      }
+
+      span {
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
