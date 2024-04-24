@@ -1,0 +1,117 @@
+@import "../../../dist/scss/variables.scss";
+
+section {
+  button {
+    width: 10rem;
+    height: 3rem;
+    border: 1px solid #333752;
+    border-radius: 2rem;
+    color: $font-color-tertiary;
+  }
+  .title-cards {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    p {
+      font-size: 3.6rem;
+      font-weight: 700;
+      color: $font-color-tertiary;
+    }
+    img {
+      width: 3rem;
+    }
+  }
+
+  .cards-comps {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    .card-comp {
+      width: 31.2rem;
+      height: 51.2rem;
+      padding: 2rem;
+      background-color: #6d748c1e;
+      border-radius: 2rem;
+
+      .likes {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        width: 7.8rem;
+        height: 2.4rem;
+        background-color: #333752;
+        border-radius: 2rem;
+        margin-bottom: 2.5rem;
+        .likes-img {
+          width: 2rem;
+      }
+
+        span {
+          color: $font-color-tertiary;
+          font-size: 1.3rem;
+        }
+      }
+
+
+      .card-header {
+        display: flex;
+        justify-content: flex-end;
+      }
+
+      .card-body {
+        img {
+          width: 100%;
+          border-radius: 2rem;
+          margin-bottom: 1rem;
+        }
+        p {
+          font-size: 1.8rem;
+          color: $font-color-tertiary;
+          font-weight: 600;
+        }
+
+        .comp-infos {
+          margin-top: 2rem;
+          display: flex;
+          justify-content: center;
+          gap: 1rem;
+
+          .btn-transparent {
+            background-color: transparent;
+            transition: all .3s;
+
+            &:hover {
+              background-color: $font-color-secondary;
+              outline: none;
+            }
+          }
+          .btn-color {
+            background-color: rgb(168, 58, 58);
+            transition: all .4s;
+
+            &:hover {
+              background-color: transparent;
+              border: 1px solid #FFF;
+            }
+          }
+        }
+
+        .btn-view {
+          display: flex;
+          justify-content: center;
+          button {
+          margin-top: 2rem;
+          background-color: $font-color-secondary;
+          cursor: pointer;
+
+          &:hover {
+            background-color: transparent;
+            border: 1px solid #FFF;
+          }
+        }
+      }
+      }
+    }
+  }
+}
