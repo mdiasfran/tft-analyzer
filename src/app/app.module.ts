@@ -8,6 +8,7 @@ import { HeroComponent } from './components/hero/hero.component';
 import { HomeComponent } from './pages/home/home.component';
 import { CardChampsComponent } from './components/card-champs/card-champs.component';
 import { CardCompsComponent } from './components/card-comps/card-comps.component';
+import { ExploreCompsComponent } from './components/explore-comps/explore-comps.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CardCompsComponent } from './components/card-comps/card-comps.component
     HeroComponent,
     HomeComponent,
     CardChampsComponent,
-    CardCompsComponent
+    CardCompsComponent,
+    ExploreCompsComponent
   ],
   imports: [
     BrowserModule,

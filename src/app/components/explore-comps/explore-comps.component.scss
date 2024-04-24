@@ -8,17 +8,53 @@ section {
     border-radius: 2rem;
     color: $font-color-tertiary;
   }
-  .title-cards {
+  p {
+    font-size: 3.6rem;
+    font-weight: 700;
+    color: $font-color-tertiary;
+    margin-bottom: 3rem;
+  }
+
+  .explore-filters {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    gap: 1rem;
-    p {
-      font-size: 3.6rem;
-      font-weight: 700;
-      color: $font-color-tertiary;
+
+    .filters {
+      display: flex;
+      gap: 1rem;
+
+      .filter {
+        background-color: transparent;
+        transition: all 0.3s;
+
+        &:hover {
+          background-color: $secondary-color;
+          outline: none;
+          cursor: pointer;
+        }
+      }
     }
-    img {
-      width: 3rem;
+
+    .select {
+      border: 1px solid #6d748c;
+      padding: 1rem;
+      border-radius: 20rem;
+      height: 5rem;
+      display: flex;
+      align-items: center;
+
+      select {
+        color: $font-color-tertiary;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        outline: none;
+
+        option {
+          color: $font-color-primary;
+        }
+      }
     }
   }
 
@@ -28,7 +64,7 @@ section {
     margin-top: 3rem;
     margin-bottom: 3rem;
     .card-comp {
-      width: 31.2rem;
+      width: 40rem;
       padding: 3rem;
       background-color: #6d748c1e;
       border-radius: 2rem;
